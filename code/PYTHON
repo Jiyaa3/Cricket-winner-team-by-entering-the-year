@@ -1,0 +1,49 @@
+odi = int(input("Enter the year of ODI World Cup whose winner you want to know: "))
+if odi in (1975, 1979):
+    print("West Indies")
+elif odi in (1987, 1999, 2003, 2007, 2015, 2023):
+    print("Australia")
+elif odi == 2019:
+    print("England")
+elif odi in (1983, 2011):
+    print("India")
+elif odi == 1992:
+    print("Pakistan")
+elif odi == 1996:
+    print("Sri Lanka")
+else:
+    print("ODI World Cup was not conducted")
+
+t_20 = int(input("Enter the year of T-20 World Cup whose winner you want to know: "))
+if t_20 in (2012, 2016):
+    print("West Indies")
+elif t_20 in (2007, 2024):
+    print("India")
+elif t_20 == 2009:
+    print("Pakistan")
+elif t_20 in (2010, 2022):
+    print("England")
+elif t_20 == 2014:
+    print("Sri Lanka")
+elif t_20 == 2021:
+    print("Australia")
+else:
+    print("T-20 World Cup was not conducted")
+
+champ = int(input("Enter the year of ICC Champions Trophy whose winner you want to know: "))
+if champ == 2004:
+    print("West Indies")
+elif champ == 2013:
+    print("India")
+elif champ == 2017:
+    print("Pakistan")
+elif champ == 1998:
+    print("South Africa")
+elif champ == 2000:
+    print("New Zealand")
+elif champ == 2002:
+    print("India and Sri Lanka declared co-champions")
+elif champ == 2006 or champ == 2009:
+    print("Australia")
+else:
+    print("ICC Champions Trophy was not conducted")
